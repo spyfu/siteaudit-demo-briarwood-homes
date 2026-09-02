@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "briarwood-homes",
   "sourceFixtureId": "p3-canary-briarwood-homes",
   "nestedPath": "/communities/fox-run/",
   "repository": "spyfu/siteaudit-demo-briarwood-homes",
-  "cloudflarePagesProject": "siteaudit-demo-briarwood-homes",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-briarwood-homes.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-briarwood-homes/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-briarwood-homes",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
