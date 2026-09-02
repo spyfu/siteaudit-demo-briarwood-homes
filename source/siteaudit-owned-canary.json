@@ -1,0 +1,93 @@
+{
+  "id": "p3-canary-briarwood-homes",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "briarwood-homes",
+  "layout": "builder",
+  "surfaceModel": "regional homebuilder and community finder",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-briarwood-homes.xlpha.com/",
+  "stack": "laravel-blade-alpine",
+  "install": "both",
+  "pageCount": 8,
+  "representativePaths": [
+    "/",
+    "/communities/fox-run/",
+    "/floorplans/the-rainier/",
+    "/quick-move-ins/lot-17-maple-glen/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Briarwood Homes | Communities, floorplans, and quick move-in homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/",
+      "quirks": [
+        "community-floorplan-loop",
+        "inventory-urgency-loop"
+      ],
+      "eyebrow": "New-home communities in the foothills"
+    },
+    {
+      "route": "/communities/fox-run/",
+      "title": "Fox Run community | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/communities/fox-run/",
+      "quirks": [
+        "community-template-overlap",
+        "community-to-guide-loop"
+      ],
+      "eyebrow": "Community page"
+    },
+    {
+      "route": "/floorplans/the-rainier/",
+      "title": "The Rainier floorplan | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/communities/fox-run/",
+      "quirks": [
+        "floorplan-to-community-canonical",
+        "inventory-loop"
+      ],
+      "eyebrow": "Flagship floorplan"
+    },
+    {
+      "route": "/quick-move-ins/lot-17-maple-glen/",
+      "title": "Lot 17 at Maple Glen | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/quick-move-ins/lot-17-maple-glen/",
+      "quirks": [
+        "inventory-to-floorplan-canonical",
+        "timing-query-links"
+      ],
+      "eyebrow": "Move-in-ready inventory"
+    },
+    {
+      "route": "/area-guides/snoqualmie-school-district/",
+      "title": "Snoqualmie School District guide | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/area-guides/snoqualmie-school-district/",
+      "quirks": [
+        "area-guide-loop",
+        "shared-neighborhood-copy"
+      ],
+      "eyebrow": "Area guide"
+    },
+    {
+      "route": "/design-gallery/",
+      "title": "Design gallery | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/design-gallery/",
+      "quirks": [],
+      "eyebrow": "Design center and inspiration"
+    },
+    {
+      "route": "/financing/",
+      "title": "Financing | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/financing/",
+      "quirks": [],
+      "eyebrow": "Buyer financing support"
+    },
+    {
+      "route": "/warranty-and-care/",
+      "title": "Warranty and care | Briarwood Homes",
+      "canonical": "https://p3-canary-briarwood-homes.xlpha.com/warranty-and-care/",
+      "quirks": [],
+      "eyebrow": "Ownership support"
+    }
+  ]
+}
